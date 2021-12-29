@@ -1,0 +1,251 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('login-bg.jpg');
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.navbar {
+    margin: 10px;
+    padding: 10px;
+    overflow: auto;
+    background-color: black;
+    border-radius: 15px;
+    opacity: 0.8;
+    text-align: center;
+}
+
+.navbar ul {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    /* For IE, the outcast */
+    zoom: 1;
+    *display: inline;
+}
+
+.navbar li {
+    float: left;
+    /* list-style: is used to remove the bullets symbol */
+    list-style: none;
+    /* text-align: center; */
+}
+
+.navbar li a {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 17px;
+    text-decoration: none;
+    color: white;
+    padding: 0px 5px;
+    margin: 0px 20px;
+    /* text-align: center; */
+}
+
+.navbar li a:hover {
+    font-size: 17px;
+    font-weight: bold;
+    color: #EED6C4;
+    transition: all 0.3s;
+}
+
+.navbar:hover {
+    box-shadow: 3px 3px 3px black;
+    transition: all 0.3s;
+}
+
+.searchbar {
+    flex-wrap: wrap;
+    float: right;
+    padding: 0px 50px;
+}
+
+.slogan {
+    color: antiquewhite;
+    position: flex;
+    margin: 3px;
+    font-size: 35px;
+    font-family: 'Road Rage', cursive;
+}
+
+.searchbar input {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 14px;
+    padding: 0px 23px;
+    border-radius: 10px;
+    position: flex;
+    flex-wrap: wrap;
+}
+
+.container {
+    background-color: #1F1D36;
+    display: inline-block;
+    border-radius: 15px;
+    opacity: 0.8;
+    margin: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.logo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 10px 5px #ccc
+}
+
+.logo img {
+    display: flex;
+    border-radius: 5px;
+    border: 4px solid black;
+
+}
+
+.form {
+    border: 4px solid rgb(219, 75, 18);
+    display: inline-block;
+    height: 300px;
+    width: 400px;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #EED6C4;
+    margin: 30px;
+    display: inline-block;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+.form:hover {
+    font-size: 18px;
+    box-shadow: 3px 3px 3px 2px rgb(216, 72, 14);
+    transition: all 0.2s;
+}
+
+.form h3 {
+    font-family: 'Zen Antique', serif;
+    text-align: center;
+}
+
+.insideForm {
+    position: flex;
+    flex-wrap: wrap;
+    color: black;
+    margin: 0px 10px;
+}
+
+.insideForm input {
+    border-radius: 5px;
+    padding: 0px 5px;
+    margin: 2px;
+}
+
+.insideForm input:hover {
+    background-color: #4E9F3D;
+    cursor: pointer;
+    transition: all 0.35s;
+}
+
+button {
+    border-radius: 5px;
+    padding: 0px 15px;
+    margin: 0px 130px;
+    border: 2px solid black;
+}
+
+button:hover {
+    border: 3px solid black;
+    background-color: rgba(214, 142, 49, 0.507);
+    cursor: pointer;
+    transition: all\ 0.5s;
+}
+
+#btn1 {
+    margin: 3px 133px;
+    flex-wrap: wrap;
+}
+
+#btn2 {
+    margin: 5px 135px;
+    flex-wrap: wrap;
+}
+
+.form1 {
+    border: 4px solid rgb(219, 75, 18);
+    height: 200px;
+    width: 400px;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #EED6C4;
+    /* display: inline-block; */
+    text-align: center;
+    margin: 85px;
+    /* padding-top: 10px; */
+    display: flex;
+    justify-content: center;
+
+}
+
+.form1:hover {
+    font-size: 18px;
+    box-shadow: 3px 3px 3px 2px rgb(216, 72, 14);
+    transition: all 0.2s;
+}
+
+.form1 h3 {
+    font-family: 'Zen Antique', serif;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.insideForm1 {
+    position: flex;
+    flex-wrap: wrap;
+    color: whitesmoke;
+    margin: 0px 10px;
+    color: black;
+}
+
+.insideForm1 input {
+    border-radius: 5px;
+    padding: 0px 5px;
+    margin: 2px;
+
+}
+
+.insideForm1 input:hover {
+    background-color: #4E9F3D;
+    cursor: pointer;
+    transition: all 0.35s;
+}
+
+#btn3 {
+    margin: 3px 133px;
+    flex-wrap: wrap;
+}
+
+.final {
+    color: black;
+}
+
+.loginCreds {
+    padding: 0px 7px;
+    margin: 2px 0px;
+    position: relative;
+}
+
+.copyright {
+    color: #EED6C4;
+    text-align: center;
+}

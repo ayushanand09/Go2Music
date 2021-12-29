@@ -1,0 +1,27 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(219, 75, 18);
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    display: inline-block;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
+    height: 100%;
+}
+
+.emoji {
+    font-size: 100px;
+    display: inline-block;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
